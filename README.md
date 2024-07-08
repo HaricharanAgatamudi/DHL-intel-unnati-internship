@@ -136,13 +136,13 @@ When I turned to deep learning, as mentioned before I could rely on a *confidenc
   <tr>
     <th>
       <p align="center">
-           <img src="./img/confidence_001.png" alt="low_confidence" height="256">
+           <img src="confidence_001.png" alt="low_confidence" height="256">
            <br>SSD Network result setting minimum confidence = 0.01
       </p>
     </th>
     <th>
       <p align="center">
-           <img src="./img/confidence_050.png" alt="high_confidence" height="256">
+           <img src="confidence_050.png" alt="high_confidence" height="256">
            <br>SSD Network result setting minimum confidence = 0.50
       </p>
     </th>
