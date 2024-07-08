@@ -246,7 +246,7 @@ Correctly creating the binary image from the input frame is the very first step 
 
 I used a combination of color and gradient thresholds to generate a binary image. In order to detect the white lines, I found that [equalizing the histogram](http://docs.opencv.org/3.1.0/d5/daf/tutorial_py_histogram_equalization.html) of the input frame before thresholding works really well to highlight the actual lane lines. For the yellow lines, I employed a threshold on V channel in [HSV](http://docs.opencv.org/3.2.0/df/d9d/tutorial_py_colorspaces.html) color space. Furthermore, I also convolve the input frame with Sobel kernel to get an estimate of the gradients of the lines. Finally, I make use of [morphological closure](http://docs.opencv.org/3.0-beta/doc/py_tutorials/py_imgproc/py_morphological_ops/py_morphological_ops.html) to *fill the gaps* in my binary image. Here I show every substep and the final output:
 <p align="center">
-  <img src="./img/binarization.png" alt="binarization overview" width="90%" height="90%">
+  <img src="binarization.png" alt="binarization overview" width="90%" height="90%">
 </p>
 
 #### 3. Describe how (and identify where in your code) you performed a perspective transform and provide an example of a transformed image.
