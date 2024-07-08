@@ -25,12 +25,12 @@ In the field of computer vision, a *features* is a compact representation that e
 Here is an example of how the `vehicle` and `non-vehicle` classes look like in this dataset:
 
 <p align="center">
-  <img src="./img/noncar_samples.png" alt="non_car_img">
+  <img src="noncar_samples.png" alt="non_car_img">
   <br>Randomly-samples non-car patches.
 </p>
 
 <p align="center">
-  <img src="./img/car_samples.png" alt="car_img">
+  <img src="car_samples.png" alt="car_img">
   <br>Randomly-samples car patches.
 </p>
 
