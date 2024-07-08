@@ -1,8 +1,7 @@
 # Vehicle Detection Project
 
 <p align="center">
- <a href="https://www.youtube.com/watch?v=Cd7p5pnP3e0"><img src="overview.gif" alt="Overview" width="50%" height="50%"></a>
- <br>Qualitative results. (click for full video)
+<img src="overview.gif" alt="Overview" width="50%" height="50%">
 </p>
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/513/view) Points
