@@ -1,7 +1,7 @@
 # Vehicle Detection Project
 
 <p align="center">
- <a href="https://www.youtube.com/watch?v=Cd7p5pnP3e0"><img src="./img/overview.gif" alt="Overview" width="50%" height="50%"></a>
+ <a href="https://youtu.be/-GGcZB7PrDI"><img src="overview.gif" alt="Overview" width="50%" height="50%"></a>
  <br>Qualitative results. (click for full video)
 </p>
 
@@ -26,12 +26,12 @@ In the field of computer vision, a *features* is a compact representation that e
 Here is an example of how the `vehicle` and `non-vehicle` classes look like in this dataset:
 
 <p align="center">
-  <img src="./img/noncar_samples.png" alt="non_car_img">
+  <img src="noncar_samples.png" alt="non_car_img">
   <br>Randomly-samples non-car patches.
 </p>
 
 <p align="center">
-  <img src="./img/car_samples.png" alt="car_img">
+  <img src="car_samples.png" alt="car_img">
   <br>Randomly-samples car patches.
 </p>
 
@@ -46,7 +46,7 @@ For the task of car detection I used *color histograms* and *spatial features* t
 HOG stands for *Histogram of Oriented Gradients* and refer to a powerful descriptor that has met with a wide success in the computer vision community, since its [introduction](http://vc.cs.nthu.edu.tw/home/paper/codfiles/hkchiu/201205170946/Histograms%20of%20Oriented%20Gradients%20for%20Human%20Detection.pdf) in 2005 with the main purpose of people detection. 
 
 <p align="center">
-  <img src="./img/hog_car_vs_noncar.jpg" alt="hog" height="128">
+  <img src="hog_car_vs_noncar.jpg" alt="hog" height="128">
   <br>Representation of HOG descriptors for a car patch (left) and a non-car patch (right).
 </p>
 
@@ -102,7 +102,7 @@ In a first phase, I implemented a naive sliding window approach in order to get 
 Whole classification pipelin using CV approach is implemented in [`main_hog.py`](main_hog.py). Each test image undergoes through the `process_pipeline` function, which is responsbile for all phases: feature extraction, classification and showing the results.
 
 <p align="center">
-  <img src="./img/pipeline_hog.jpg" alt="hog" height="256">
+  <img src="pipeline_hog.jpg" alt="hog" height="256">
   <br>Result of HOG pipeline on one of the test images.
 </p>
 
@@ -123,7 +123,7 @@ The whole pipeline has been adapted to the make use of SSD network in file [`mai
 ### Video Implementation
 
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (somewhat wobbly or unstable bounding boxes are ok as long as you are identifying the vehicles most of the time with minimal false positives.)
-Here's a [link to my video result](https://www.youtube.com/watch?v=Cd7p5pnP3e0)
+Here's a [link to my video result](https://youtu.be/-GGcZB7PrDI)
 
 
 #### 2. Describe how (and identify where in your code) you implemented some kind of filter for false positives and some method for combining overlapping bounding boxes.
