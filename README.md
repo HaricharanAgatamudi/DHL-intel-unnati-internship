@@ -45,7 +45,7 @@ For the task of car detection I used *color histograms* and *spatial features* t
 HOG stands for *Histogram of Oriented Gradients* and refer to a powerful descriptor that has met with a wide success in the computer vision community, since its [introduction](http://vc.cs.nthu.edu.tw/home/paper/codfiles/hkchiu/201205170946/Histograms%20of%20Oriented%20Gradients%20for%20Human%20Detection.pdf) in 2005 with the main purpose of people detection. 
 
 <p align="center">
-  <img src="./img/hog_car_vs_noncar.jpg" alt="hog" height="128">
+  <img src="hog_car_vs_noncar.jpg" alt="hog" height="128">
   <br>Representation of HOG descriptors for a car patch (left) and a non-car patch (right).
 </p>
 
@@ -101,7 +101,7 @@ In a first phase, I implemented a naive sliding window approach in order to get 
 Whole classification pipelin using CV approach is implemented in [`main_hog.py`](main_hog.py). Each test image undergoes through the `process_pipeline` function, which is responsbile for all phases: feature extraction, classification and showing the results.
 
 <p align="center">
-  <img src="./img/pipeline_hog.jpg" alt="hog" height="256">
+  <img src="pipeline_hog.jpg" alt="hog" height="256">
   <br>Result of HOG pipeline on one of the test images.
 </p>
 
@@ -135,13 +135,13 @@ When I turned to deep learning, as mentioned before I could rely on a *confidenc
   <tr>
     <th>
       <p align="center">
-           <img src="./img/confidence_001.png" alt="low_confidence" height="256">
+           <img src="confidence_001.png" alt="low_confidence" height="256">
            <br>SSD Network result setting minimum confidence = 0.01
       </p>
     </th>
     <th>
       <p align="center">
-           <img src="./img/confidence_050.png" alt="high_confidence" height="256">
+           <img src="confidence_050.png" alt="high_confidence" height="256">
            <br>SSD Network result setting minimum confidence = 0.50
       </p>
     </th>
