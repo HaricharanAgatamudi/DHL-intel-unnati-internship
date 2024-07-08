@@ -1,4 +1,4 @@
-# Vehicle Detection Project
+# Vehicle CutIn Detection Project
 
 <p align="center">
 <img src="overview.gif" alt="Overview" width="50%" height="50%">
