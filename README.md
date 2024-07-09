@@ -367,9 +367,9 @@ The qualitative result for one of the given test images follows:
 
 
 
-###Pipeline (video)
+### Pipeline (video)
 
-####1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
+#### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
 
 Here's a [link to my video result](https://youtu.be/BlHTbDip6oU).
 
@@ -384,4 +384,4 @@ I find that the more delicate aspect of the pipeline is the first step, namely t
 
 Implementation of [Single Shot MultiBox Detector](https://arxiv.org/pdf/1512.02325.pdf) was borrowed from [this repo](https://github.com/rykov8/ssd_keras) and then slightly modified for my purpose. Thank you [rykov8](https://github.com/rykov8) for porting this amazing network in Keras-Tensorflow!
 
-###@Copyright-DHL Group-Vehicle Cut In Detection-Intel Unnati Industrial Internship Program(2024)
+### @Copyright-DHL Group-Vehicle Cut In Detection-Intel Unnati Industrial Internship Program(2024)
