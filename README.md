@@ -384,4 +384,4 @@ I find that the more delicate aspect of the pipeline is the first step, namely t
 
 Implementation of [Single Shot MultiBox Detector](https://arxiv.org/pdf/1512.02325.pdf) was borrowed from [this repo](https://github.com/rykov8/ssd_keras) and then slightly modified for my purpose. Thank you [rykov8](https://github.com/rykov8) for porting this amazing network in Keras-Tensorflow!
 
-@Copyright-DHL Group-Vehicle Cut In Detection-Intel Unnati Industrial Internship Program(2024)
+###@Copyright-DHL Group-Vehicle Cut In Detection-Intel Unnati Industrial Internship Program(2024)
