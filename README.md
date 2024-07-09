@@ -165,7 +165,7 @@ For this reason, I turned to deep learning, and I leveraged on an existing detec
 
 ---
 
-## **Advanced Lane Finding Project**
+## **Advanced Lane Finding**
 <p align="center">
  <a href="https://youtu.be/BlHTbDip6oU"><img src="overview2.mp4" alt="Overview2" width="50%" height="50%"></a>
  <br>Qualitative results. (click for full video)
