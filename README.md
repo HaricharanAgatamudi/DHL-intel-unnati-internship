@@ -1,4 +1,4 @@
-# Vehicle Detection Project
+# Vehicle CutIn Detection Project
 
 <p align="center">
  <a href="https://youtu.be/-GGcZB7PrDI"><img src="overview.gif" alt="Overview" width="50%" height="50%"></a>
