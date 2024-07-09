@@ -162,7 +162,7 @@ In the first phase, the HOG+SVM approach turned out to be slightly frustrating, 
 For this reason, I turned to deep learning, and I leveraged on an existing detection network (pretrained on Pascal VOC classes) to tackle the problem. From that moment, the sun shone again on this assignment!
 
 <p align="center">
- <a href="https://youtu.be/BlHTbDip6oU"><img src="overview.gif" alt="Overview" width="50%" height="50%"></a>
+ <a href="https://youtu.be/BlHTbDip6oU"><img src="overview2.mp4" alt="Overview" width="50%" height="50%"></a>
  <br>Qualitative results. (click for full video)
 </p>
 
