@@ -161,7 +161,7 @@ In the first phase, the HOG+SVM approach turned out to be slightly frustrating, 
 
 For this reason, I turned to deep learning, and I leveraged on an existing detection network (pretrained on Pascal VOC classes) to tackle the problem. From that moment, the sun shone again on this assignment!
 
-
+#### Accuracy-86.34%
 
 ---
 
